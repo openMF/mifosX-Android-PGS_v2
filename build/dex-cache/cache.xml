@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/antoniocarella/git/android_mifos/android-client/mifosng-android/build/pre-dexed/debug/retrofit-1.4.1-4d1b3c76091333b15f0dab3569972f744e0c4410.jar"
+        jar="/Users/antoniocarella/git/android_mifos/android-client/mifosng-android/libs/retrofit-1.4.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="23de973a4908bc6f5ac6524af3251a19ad81a7b1"/>
+    <item
+        dex="/Users/antoniocarella/git/android_mifos/android-client/mifosng-android/build/pre-dexed/debug/classes-bef3b444ec9044ffd52905513e2fced078bc19bc.jar"
+        jar="/Users/antoniocarella/git/android_mifos/android-client/build/exploded-aar/com.google.android.gms/play-services/4.4.52/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059"/>
+    <item
+        dex="/Users/antoniocarella/git/android_mifos/android-client/mifosng-android/build/pre-dexed/debug/jsr250-api-1.0-01a57295308574569b22e0bcffe3e40db1b2da8b.jar"
+        jar="/Users/antoniocarella/.gradle/caches/modules-2/files-2.1/javax.annotation/jsr250-api/1.0/5025422767732a1ab45d93abfea846513d742dcf/jsr250-api-1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5025422767732a1ab45d93abfea846513d742dcf"/>
+    <item
+        dex="/Users/antoniocarella/git/android_mifos/android-client/mifosng-android/build/pre-dexed/debug/gson-2.2.4-dd7509c65ccbe80747d1854a0aad9b43a2e7b8ff.jar"
+        jar="/Users/antoniocarella/git/android_mifos/android-client/mifosng-android/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>
+    <item
+        dex="/Users/antoniocarella/git/android_mifos/android-client/mifosng-android/build/pre-dexed/debug/fliptables-1.0.1-67b5eba02bbae7d5943502203c27b0610ec9be46.jar"
+        jar="/Users/antoniocarella/.gradle/caches/modules-2/files-2.1/com.jakewharton.fliptables/fliptables/1.0.1/41af4f95028e93f37d372f313867606e8be9375f/fliptables-1.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="41af4f95028e93f37d372f313867606e8be9375f"/>
+    <item
+        dex="/Users/antoniocarella/git/android_mifos/android-client/mifosng-android/build/pre-dexed/debug/butterknife-4.0.1-45f292366cdbbf8110766b90248752318cd911ed.jar"
+        jar="/Users/antoniocarella/git/android_mifos/android-client/mifosng-android/libs/butterknife-4.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f43b36925363701633d01adb8e54df7150397a78"/>
+    <item
+        dex="/Users/antoniocarella/git/android_mifos/android-client/mifosng-android/build/pre-dexed/debug/classes-b56c595b27ede0a07619ea8e2f5afc13b90cc336.jar"
+        jar="/Users/antoniocarella/git/android_mifos/android-client/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="/Users/antoniocarella/git/android_mifos/android-client/mifosng-android/build/pre-dexed/debug/sugar-1.3_beta-9955592be96f75b2f49979a4f9634076cb981eed.jar"
+        jar="/Users/antoniocarella/git/android_mifos/android-client/mifosng-android/libs/sugar-1.3_beta.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5a9776f8a908635a16dc48c4b5300cb9f3faf495"/>
+    <item
+        dex="/Users/antoniocarella/git/android_mifos/android-client/mifosng-android/build/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>

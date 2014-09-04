@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_1"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="4dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Client Name"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/tv_clientName" />
+
+            <QuickContactBadge
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/quickContactBadge_client"
+                android:layout_gravity="right|end"
+                android:layout_marginLeft="100dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider_1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_below="@+id/linear_layout_1"/>
+
+        <TableLayout
+            android:id="@+id/tb_paymentForm"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/divider_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="4dp"
+                android:id="@+id/tableRow1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/amount"
+                    android:id="@+id/tv_pgs_payment_amount"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/et_pgs_payment_amount"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tb_paymentForm"
+            android:id="@+id/bt_cancelPayment"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submitPayment"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tb_paymentForm"
+            android:id="@+id/bt_paynow"
+            android:layout_margin="8dp"/>
+
+    </RelativeLayout>
+</ScrollView>

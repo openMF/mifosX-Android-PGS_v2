@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/agent_account"
+        android:title="@string/agent_account"
+        android:showAsAction="ifRoom"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/mItem_search"
+        android:enabled="true"
+        android:showAsAction="ifRoom"
+        android:title="@string/search" />
+
+    <item
+        android:id="@+id/offline_menu"
+        android:enabled="true"
+        android:showAsAction="ifRoom"
+        android:title="@string/offline" />
+
+    <item android:id="@+id/logout"
+        android:enabled="true"
+        android:showAsAction="ifRoom"
+        android:title="@string/logout" />
+
+</menu>

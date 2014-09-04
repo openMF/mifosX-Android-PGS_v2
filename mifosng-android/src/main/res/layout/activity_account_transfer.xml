@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/transfer_account_id"
+        android:inputType="text"
+        android:hint="Account Id"
+        android:minWidth="200dp"
+        android:imeOptions="actionNext"
+        android:nextFocusDown="@+id/et_username"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/tv_accountNo_prompt"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_transfer_amount"
+        android:hint="Amount"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:nextFocusDown="@+id/et_amount"
+        android:layout_below="@+id/tv_prompt_amount"
+        android:layout_alignLeft="@+id/tv_prompt_amount"
+        android:layout_alignStart="@+id/tv_prompt_amount"
+        android:layout_alignRight="@+id/transfer_account_id"
+        android:layout_alignEnd="@+id/transfer_account_id" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/bt_submit_transfer"
+        android:layout_below="@+id/et_transfer_amount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Please enter the account number to which you wish to transfer funds:"
+        android:id="@+id/tv_accountNo_prompt"
+        android:layout_below="@+id/iv_logo"
+        android:layout_alignLeft="@+id/transfer_account_id"
+        android:layout_alignStart="@+id/transfer_account_id"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Please enter the amount you wish to transfer:"
+        android:id="@+id/tv_prompt_amount"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/transfer_account_id"
+        android:layout_alignLeft="@+id/transfer_account_id"
+        android:layout_alignStart="@+id/transfer_account_id"
+        android:textAlignment="gravity"
+        android:gravity="center" />
+
+    
+
+</RelativeLayout>
